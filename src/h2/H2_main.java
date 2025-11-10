@@ -14,8 +14,8 @@ public class H2_main {
         x = input == 10 || input == 11;
         y = input == 11 || input == 01;
 
-        boolean e1 = true;
-        boolean e2 = true;
+        boolean e1 = x;
+        boolean e2 = y;
         boolean e3 = x != y;
 
         a = e1 && e2;
